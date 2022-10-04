@@ -4,402 +4,279 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>CV-MGM</title>
-    <link rel="shortcut icon" href="src/img/Anchor.ico">
+    <title>Matheus' CV</title>
+    <link rel="shortcut icon" href="resources/icos/Anchor-highlight.ico">
 
     <!-- GoogleFonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@100;300;400;500;900&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@300;400;700;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome - KIT-EMAIL: mathguimachdev@gmail.com -->
-    <script src="https://kit.fontawesome.com/3ddc355b01.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/23c1ed35b6.js" crossorigin="anonymous"></script>
 
     <!-- Css StyleSheets & Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap4 Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   </head>
-  <body>
+  
+  <body class="bg-color-main">
 
-    <section id="presentation">
+    <section id="navbarCV" class="bg-color-main">
       <div class="container-fluid">
-        <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#">Curriculum Vitae</a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand color-filler" href="#">Curriculum Vitae</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#about" class="nav-link">Sobre</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-auto">
+                <a href="#personal-info" class="nav-link color-filler">Sobre Mim</a>
               </li>
-              <li class="nav-item">
-                <a href="#experience" class="nav-link">Experiência</a>
+              <li class="nav-item ms-auto">
+                <a href="#characteristics" class="nav-link color-filler">characterístics</a>
               </li>
-              <li class="nav-item">
-                <a href="#skills" class="nav-link">Habilidades</a>
+              <li class="nav-item ms-auto">
+                <a href="#experience" class="nav-link color-filler">Experiência</a>
               </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contato</a>
+              <li class="nav-item ms-auto">
+                <a href="#technologies" class="nav-link color-filler">Tecnologias</a>
               </li>
             </ul>
           </div>
         </nav>
+      </div>
+    </section>
 
+    <section id="presentation" class="bg-color-alt">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-3">
-            <img src="src/img/Shinji.jpg" alt="profile">
+              <img class="img-fluid mx-auto d-block profile-img" src="resources/imgs/Shinji.jpg" alt="profile">
           </div>
           <div class="col-lg-9">
-            <h1 class="presentation-name">Matheus Guimarães Machado</h1>
-            <h2 class="presentation-role">Desenvolvedor Web Pleno</h2>
-            <h3 class="presentation-info">Nacionalidade: Brasileiro</h3>
-            <h3 class="presentation-info">Estado Civil: Solteiro</h3>
-            <h3 class="presentation-info">Data de Nascimento: 03/03/1996</h3>
-            <h3 class="presentation-info">Gênero: Masculino</h3>
+            <h1 class="color-filler">Matheus Guimarães Machado</h1>
+            <h2 class="color-highlight">Desenvolvedor Java Web Pleno</h2>
+            <h4 class="color-filler"><i class="fa-solid fa-envelope"></i> MathGuiMachDev@gmail.com</h4>
+            <h4 class="color-filler"><i class="fa-solid fa-phone"></i> +55 (22) 99941 3025</h4>
+            <h4 class="color-filler"><i class="fa-brands fa-github"></i> Github.com/MathGuiMachDev</h4>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about">
+    <section id="personal-info" class="bg-color-filler color-main">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3 col-md-6 about-box">
-            <span class="fas fa-code about-icon"></span>
-            <h3 class="about-title">Full Stack</h3>
-            <p class="about-description">Experiência com Front-end, Back-end, APIs, Webservices, Sistemas locais e distribuídos.</p>
+          <div class="col-lg-8">
+            <h3><i class="fa-solid fa-bullhorn"></i> APRESENTAÇÃO</h3>
+            <p>&emsp;Busco construir carreira em desenvolvimento de software. Gosto de programar seguindo padrões de projeto pré-estabelecidos e manter a integridade e qualidade do código a longo termo.</p>
+            <p>&emsp;Sempre estou fazendo cursos para me manter atualizado sobre novas tecnologias e o “estado da arte” atual. Estou disposto a aprender qualquer tecnologia para participar de projetos de desenvolvimento de sistemas.</p>
+            <p>&emsp;Cheguei ao ponto da minha vida onde quero me estabilizar profissionalmente e contribuir para o campo profissional que sempre me fascinou tanto.</p>
           </div>
-          <div class="col-lg-3 col-md-6 about-box">
-            <span class="fas fa-code-branch about-icon"></span>
-            <h3 class="about-title">Jogador de Equipe</h3>
-            <p class="about-description">Me dou bem com trabalho coordenado de equipe. Seja seguindo ou liderando.</p>
+          <div class="col-lg-4">
+            <h3><i class="fa-solid fa-user"></i> DADOS PESSOAIS</h3>
+            <p>Data de Nascimento: 03/03/1996</p>
+            <p>Nacionalidade: Brasileiro</p>
+            <p>Sexo: Masculino</p>
+            <p>Estado Civil: Solteiro</p>
+            <p>Endereço: Armação dos Búzios, RJ, Brasil</p>
           </div>
-          <div class="col-lg-3 col-md-6 about-box">
-            <span class="fas fa-laptop-code about-icon"></span>
-            <h3 class="about-title">Adaptabilidade</h3>
-            <p class="about-description">Aprendizado rápido. Me acostumo facilmente com mudanças de projeto, escopo ou ambiente.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 about-box">
-            <span class="fas fa-coffee about-icon"></span>
-            <h3 class="about-title">Atitude Positiva</h3>
-            <p class="about-description">Preocupação? Somente com o sucesso do projeto!</p>
-          </div>
-        </div>
+        </divc>
       </div>
     </section>
 
-    <section id="experience">
+    <section id="characteristics" class="bg-color-alt color-filler">
       <div class="container-fluid">
-        <h3 class="experience-title">Experiência</h3>
-        <hr>
-        <div class="row">
-          <div class="col-lg-1 col-md-1 col-sm-1"></div>
-          <div class="col-lg-11 col-md-11 col-sm-11">
-            <h4 class="experience-place">SD Informática - Automação Comercial, 2018-2020.</h4>
-            <p class="experience-description">Desenvolvedor de software desktop. Utilizando RAD Studio com C++ para melhorar e manter um sistema de pontos de venda.</p>
+        <div id="characteristics-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item text-center active">
+              <i class="fa-solid fa-terminal color-highlight char-icon"></i>
+              <h3>Autodidata</h3>
+              <p>(Udemy, Alura, Data Science Academy)</p>
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-code-branch color-highlight char-icon"></i>
+              <h3>Jogador de Equipe</h3>
+              <p>Me dou bem com trabalho coordenado de equipe. Seja seguindo ou liderando.</p>
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-laptop-code color-highlight char-icon"></i>
+              <h3>Adaptabilidade</h3>
+              <p>Aprendizado rápido. Me acostumo facilmente com mudanças de projeto, escopo ou ambiente.</p>
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-mug-hot color-highlight char-icon"></i>
+              <h3>Atitude Positiva</h3>
+              <p>Preocupação? Somente com o sucesso do projeto!</p>
+            </div>
+            <div class="carousel-item text-center">
+              <i class="fa-solid fa-code color-highlight char-icon"></i>
+              <h3>Aspirante a Desenvolvedor FullStack</h3>
+              <p>Experiência com Front-end, Back-end, APIs, Webservices, Sistemas locais e distribuídos.</p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-1 col-md-1 col-sm-1"></div>
-          <div class="col-lg-11 col-md-11 col-sm-11">
-            <h4 class="experience-place">Safe Monitoramento, Early 2018.</h4>
-            <p class="experience-description">Técnico de TI. Configuração de central de monitoramento e instalação de equipamento de monitoramento.</p>
-          </div>
-        </div>
-        <br>
-        <h3 class="experience-title">Formação</h3>
-        <hr>
-        <div class="row">
-          <div class="col-lg-1 col-md-1 col-sm-1"></div>
-          <div class="col-lg-11 col-md-11 col-sm-11">
-            <h4 class="experience-place">Análise de Sistemas de Informação - Universidade Estácio de Sá, 2014-2017.</h4>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#characteristics-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#characteristics-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
 
-    <section id="skills">
+    <section id="experience" class="bg-color-filler color-main">
       <div class="container-fluid">
-
-        <h3 class="skills-title">Linguagens</h3>
-        <hr>
         <div class="row">
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Java</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">C++</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">SQL</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <p class="skill-level-description">Mestre</p>
-              </div>
-            </div>
+          <div class="col-lg-8">
+            <h3><i class="fa-solid fa-briefcase"></i> EXPERIÊNCIA</h3>
+            <ul>
+              <li><p><em>Basis - Tecnologia da Informação, 2021-2022. (Remoto)</em><br>                                                                               
+                Desenvolvedor Java. Trabalhei no projeto de um sistema distribuído de protocolo eletrônico de documentos e um sistema integrador de expedição de documentos.</p></li>
+              <li><p><em>SD Informática - Automação Comercial, 2018-2020.</em><br>                                                                               
+                Desenvolvedor de Software. Trabalhei em projetos de pontos de vendas, emissão de NFC-e, comanda eletrônica, fazendo melhorias e dando manutenção a outros sistemas relacionados.</p></li>
+              <li><p><em>Safe Monitoramento, 2018.</em><br> 
+                Técnico de Informática. Configuração de central de monitoramento e instalação de câmeras e outros hardwares de segurança.</p></li>
+            </ul>
+            <hr>
+            <h3><i class="fa-solid fa-graduation-cap"></i> FORMAÇÃO</h3>
+            <ul>
+              <li><p>Bacharelado em Análise de Sistemas de Informação;<br>                                                                                                 
+                <em>Universidade Estácio de Sá - Campus Cabo Frio – RJ</em>, 2017;<br>                                                                                                   
+                Desenvolvi um jogo como parte do meu trabalho de conclusão de curso: <a href="https://orphan-team.itch.io/vessel" target="_blank"><button type="button" class="btn btn-dark color-highlight button-link-vessel">Vessel</button></a></p></li>
+              <li><p><em>Java COMPLETO Programação Orientada a Objetos + Projetos;</em><br> Dr. Nelio Alves - Udemy, 2020</p></li>
+              <li><p><em>The Complete 2022 Web Development Bootcamp;</em><br> Dr. Angela Yu - Udemy, 2022</p></li>
+            </ul>
           </div>
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">JavaScript</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Estudando</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">HTML/CSS</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Estudando</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Python</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Interessado</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
 
-        <h3 class="skills-title">Frameworks</h3>
-        <hr>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Spring</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">RAD Studio</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Node.js</h4>
-                <p class="skill-level-description">TypeScript/Yarn/TypeORM</p>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Estudando</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Bootstrap 4</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Estudando</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-
-        <h3 class="skills-title">Bancos de Dados</h3>
-        <hr>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">MySQL</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">PostgreSQL</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">Microsoft SQL Server</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">MongoDB</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Estudando</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="skill-name">SQLite</h4>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 skill-level">
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="fas fa-circle"></span>
-                <span class="far fa-circle"></span>
-                <p class="skill-level-description">Experiente</p>
-              </div>
-            </div>
+          <div class="col-lg-4">
+            <h3><i class="fa-solid fa-gears"></i> CONHECIMENTO</h3>
+            <h5>LÍNGUAS</h5>
+            <ul>
+              <li><p>Português (Fluente) (Linguagem Nativa)</p></li>
+              <li><p>Inglês (Avançado)</p></li>
+            </ul>
+            
+            <h5>PRINCIPAL</h5>
+            <ul>
+              <li><p>Java (SpringBoot + Hibernate, Restful APIs)</p></li>
+              <li><p>Bancos de Dados (MySQL,PostgreSQL,SQLite,MongoDB)</p></li>
+              <li><p>HTML5, CSS (BootStrap4), JavaScript (TypeScript)</p></li>
+              <li><p>Git, GitHub, GitLab</p></li>
+            </ul>
+  
+            <h5>COMPLEMENTAR</h5>
+            <ul>
+              <li><p>C# (Unity Game Engine)</p></li>
+              <li><p>C++ (Conhecimento Geral)</p></li>
+              <li><p>Docker (Gerenciamento de Containers)</p></li>
+              <li><p>Jenkins (Administração)</p></li>
+              <li><p>Jira (Gerenciamento de tarefas)</p></li>
+              <li><p>Heroku (Hospedagem de Web service)</p></li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="technologies" class="bg-color-alt">
       <div class="container-fluid">
-        <h3 class="contact-title">Informação de Contato</h3>
-        <hr>
         <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-4">
-            <span class="fab fa-github contact-icon"></span>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-html-5-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-css-3-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-javascript-256.png">
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8 contact-platform">
-            <h4>GitHub</h4>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/bootstrap-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/docker-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/Github_logo_PNG 256.png">
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 contact-info">
-            <p>github.com/MathGuiMachDev</p>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/heroku-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-angular-js-icon-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-java-256.png">
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-4">
-            <span class="fas fa-envelope contact-icon"></span>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/logo-react-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/mysql-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/typescript-256.png">
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-8 contact-platform">
-            <h4>E-mail</h4>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/udemy-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/visual-studio-code-256.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/c--4.png">
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 contact-info">
-            <p>mathguimachdev@gmail.com</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-4">
-            <span class="fas fa-mobile-alt contact-icon"></span>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-8 contact-platform">
-            <h4>Telefone</h4>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 contact-info">
-            <p>+55 (22) 99941-3025</p>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/mongoDB-logo.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/postgre-logo.png">
+              </div>
+              <div class="col">
+                <img class="img-fluid mx-auto d-block" src="resources/logos/Official_unity_logo.png">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section id="footer">
+  
+    <section id="footer" class="bg-color-main color-highlight">
       <div class="container-fluid">
-        <p class="footer-text">© Copyright 2021 Matheus G. Machado</p>
+        <p class="footer-text">© Copyright 2022 - Matheus Guimarães Machado</p>
       </div>
     </section>
-
   </body>
 </html>
