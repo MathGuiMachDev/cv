@@ -17,7 +17,7 @@ p {
 }
 
 .container-fluid {
-  padding: 2% 10%;
+  padding: 3% 10%;
 }
 
 .bg-color-main{
@@ -76,7 +76,7 @@ p {
 /* Experience */
 
 .button-link-vessel{
-  padding: 0;
+  padding: 0 1%;
 }
 
 /* Logos */
@@ -90,4 +90,66 @@ p {
 .footer-text {
   font-family: "Cinzel";
   font-weight: 400;
+}
+
+/* MEDIA QUERIES */
+
+.hr-display{
+  display: none;
+}
+
+/* mobile devices */
+@media only screen and (max-width: 480px) {
+  .hr-display{
+    display: block;
+  }
+
+  #characteristics{
+    height: 15rem;
+    position: relative;
+  }
+  #characteristics #characteristics-carousel{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}
+
+/* iPads & tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .hr-display{
+    display: block;
+  }
+
+  #characteristics{
+    height: 15rem;
+    position: relative;
+  }
+  #characteristics #characteristics-carousel{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}
+
+/* small screens like laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  #presentation .container-fluid{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/*  large screens like Desktops and extra large screens like TV */
+@media only screen and (min-width: 1025px){
+  #presentation .container-fluid{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
