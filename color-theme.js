@@ -9,8 +9,6 @@ class ColorTheme {
 }
 
 function changeTheme(colorTheme){
-    console.log(colorTheme);
-    // document.querySelectorAll(".color-main").forEach(item => { item.style.color = colorTheme.mainColor });
     $(".color-main").css("color", colorTheme.mainColor);
     $(".color-alt").css("color", colorTheme.altColor);
     $(".color-highlight").css("color", colorTheme.highlightColor);

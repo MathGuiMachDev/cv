@@ -62,8 +62,7 @@ p {
 .square {
   border-radius: 20%;
   display: inline-block;
-  width: 0.9rem;
-  height: 0.9rem;
+  padding: 0.45rem;
 }
 
 /* Presentation */
