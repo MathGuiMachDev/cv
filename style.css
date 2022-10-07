@@ -58,6 +58,14 @@ p {
   font-weight: 400;
 }
 
+/* OffCanvas */
+.square {
+  border-radius: 20%;
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
 /* Presentation */
 
 .profile-img {
