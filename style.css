@@ -111,6 +111,19 @@ p {
     display: block;
   }
 
+  #presentation h1{
+    font-size: 1.3rem;
+    margin-top: 0.33rem;
+    text-align: center;
+  }
+  #presentation h2{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #presentation h4{
+    font-size: 1.2rem;
+  }
+
   #characteristics{
     height: 15rem;
     position: relative;
@@ -129,6 +142,19 @@ p {
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .hr-display{
     display: block;
+  }
+
+  #presentation h1{
+    font-size: 1.3rem;
+    margin-top: 0.33rem;
+    text-align: center;
+  }
+  #presentation h2{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #presentation h4{
+    font-size: 1.2rem;
   }
 
   #characteristics{
