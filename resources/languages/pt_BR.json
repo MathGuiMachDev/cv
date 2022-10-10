@@ -1,0 +1,94 @@
+{
+    "navbar":{
+        "title":"Curriculum Vitae",
+        "item-presentation":"Sobre Mim",
+        "item-characteristics":"Características",
+        "item-experience":"Experiência",
+        "item-technologies":"Tecnologias"
+    },
+    "offcanvas":{
+        "title":"Configurações",
+        "color-scheme":"Tema de Cores",
+        "languages":"Idiomas"
+    },
+    "presentation":{
+        "name":"Matheus Guimarães Machado",
+        "professional-title":"Desenvolvedor Java Web Pleno",
+        "email":"MathGuiMachDev@Gmail.com",
+        "phone-number":"+55 (22) 99941 3025",
+        "github-link":"Github.com/MathGuiMachDev"
+    },
+    "personal-info":{
+        "presentation":{
+            "title":"APRESENTAÇÃO",
+            "first-paragraph":"Busco construir carreira em desenvolvimento de software. Gosto de programar seguindo padrões de projeto pré-estabelecidos e manter a integridade e qualidade do código a longo termo.",
+            "second-paragraph":"Sempre estou fazendo cursos para me manter atualizado sobre novas tecnologias e o “estado da arte” atual. Estou disposto a aprender qualquer tecnologia para participar de projetos de desenvolvimento de sistemas.",
+            "third-paragraph":"Cheguei ao ponto da minha vida onde quero me estabilizar profissionalmente e contribuir para o campo profissional que sempre me fascinou tanto."
+        },
+        "personal-data":{
+            "title":"DADOS PESSOAIS",
+            "birth-date":"Data de Nascimento: 03/03/1996",
+            "nationality":"Nacionalidade: Brasileiro",
+            "sex":"Sexo: Masculino",
+            "marital-status":"Estado Civil: Solteiro",
+            "address":"Endereço: Armação dos Búzios, RJ, Brasil"
+        }
+    },
+    "characteristics":[
+        {"title":"Autodidata","description":"(Udemy, Alura, Data Science Academy)"},
+        {"title":"Jogador de Equipe","description":"Me dou bem com trabalho coordenado de equipe. Seja seguindo ou liderando."},
+        {"title":"Adaptabilidade","description":"Aprendizado rápido. Me acostumo facilmente com mudanças de projeto, escopo ou ambiente."},
+        {"title":"Atitude Positiva","description":"Preocupação? Somente com o sucesso do projeto!"},
+        {"title":"Aspirante a Desenvolvedor FullStack","description":"Experiência com Front-end, Back-end, APIs, Webservices, Sistemas locais e distribuídos."}
+    ],
+    "experience":{
+        "work":{
+            "title":"EXPERIÊNCIA",
+            "itens":[
+                {"company-name":"Basis - Tecnologia da Informação, 2021-2022. (Remoto)","job-description":"Desenvolvedor Java. Trabalhei no projeto de um sistema distribuído de protocolo eletrônico de documentos e um sistema integrador de expedição de documentos."},
+                {"company-name":"SD Informática - Automação Comercial, 2018-2020.","job-description":"Desenvolvedor de Software. Trabalhei em projetos de pontos de vendas, emissão de NFC-e, comanda eletrônica, fazendo melhorias e dando manutenção a outros sistemas relacionados."},
+                {"company-name":"Safe Monitoramento, 2018.","job-description":"Técnico de Informática. Configuração de central de monitoramento e instalação de câmeras e outros hardwares de segurança."}
+            ]
+        },
+        "education":{
+            "title":"FORMAÇÃO",
+            "itens":[
+                {"course-title":"Bacharelado em Análise de Sistemas de Informação;","institution":"Universidade Estácio de Sá - Campus Cabo Frio – RJ, 2017;","commentary":"Desenvolvi um jogo como parte do meu trabalho de conclusão de curso: "},
+                {"course-title":"Java COMPLETO Programação Orientada a Objetos + Projetos;","institution":"Dr. Nelio Alves - Udemy, 2020.","commentary":""},
+                {"course-title":"The Complete 2022 Web Development Bootcamp;","institution":"Dr. Angela Yu - Udemy, 2022.","commentary":""}
+            ]
+        },
+        "knowledge":{
+            "title":"CONHECIMENTO",
+            "language":{
+                "title":"LÍNGUAS",
+                "itens":[
+                    "Português (Fluente) (Linguagem Nativa)",
+                    "Inglês (Avançado)"
+                ]
+            },
+            "main-skill":{
+                "title":"PRINCIPAL",
+                "itens":[
+                    "Java (SpringBoot + Hibernate, Restful APIs)",
+                    "Bancos de Dados (MySQL, PostgreSQL, SQLite, MongoDB)",
+                    "HTML5, CSS (BootStrap4), JavaScript (TypeScript, jQuery)",
+                    "Git, GitHub, GitLab"
+                ]
+            },
+            "complementary-skill":{
+                "title":"COMPLEMENTAR",
+                "itens":[
+                    "C# (Unity Game Engine)",
+                    "C++ (Conhecimento Geral)",
+                    "Docker (Gerenciamento de Containers)",
+                    "Jenkins (Administração)",
+                    "Jira (Gerenciamento de tarefas)",
+                    "Heroku (Hospedagem de Web service)"
+                ]
+            }
+        }
+    },
+    "technologies":"",
+    "footer":"© Copyright 2022 - Matheus Guimarães Machado"
+}
